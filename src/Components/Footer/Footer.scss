@@ -1,0 +1,144 @@
+
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 30rem;
+  background-image: url(../../Assets/waves.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fts {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+  top: 13rem;
+  font-weight: lighter;
+  padding: 0 2rem;
+}
+
+.ftul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px; /* Adjust spacing between lists */
+  
+  li {
+    color: #333;
+    margin-bottom: 8px;
+    
+    &:hover {
+      color: #ff9900; /* Change color on hover */
+    }
+  }
+}
+
+.copyright {
+  margin-top: 40px; /* Adjust spacing from the lists */
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  top: 12rem;
+}
+.footerlogo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 9%;
+  border-radius: 10px;
+  position: relative;
+  left: 3rem;
+  top: 4rem;
+  height: 6rem;
+  background-color: white;
+}
+/* Add styles for social media icons if you uncomment the sosh section */
+.sosh {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  
+  li {
+    margin: 0 10px;
+    cursor: pointer;
+    
+    &:hover {
+      color: #ff9900; /* Change color on hover */
+    }
+  }
+}
+.soshicon {
+  width: 4rem;
+  height:3rem;
+  color: orange;
+}
+
+
+@media (max-width: 1200px) {
+  .fts {
+    display: flex;
+    flex-wrap: wrap;
+    top: 4rem;
+
+  }
+  .ftul{
+    width: 40vw;
+  }
+  .footer {
+    height: 31rem !important; 
+    background-size: cover;
+  }
+  .footerlogo{
+    width: 20vw;
+    left: 12rem;
+    top: 1rem;
+  }
+  .copyright{
+    top: 6rem;
+
+  }
+}
+@media (max-width: 90px) {
+  .fts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ftul{
+    width: 40vw;
+  }
+  .footer {
+    height: 31rem !important; 
+    background-size: cover;
+  }
+  .footerlogo{
+    width: 20vw;
+    left: 12rem;
+    top: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .fts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ftul{
+    width: 40vw;
+  }
+  .footer {
+    height: 31rem !important; 
+    background-size: cover;
+  }
+  .footerlogo{
+    width: 20vw;
+    left: 12rem;
+    top: 1rem;
+  }
+}
